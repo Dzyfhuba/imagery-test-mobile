@@ -1,4 +1,4 @@
-package com.rnvisionproject.newarchitecture;
+package com.hafidzubaidillah.imagerytest.newarchitecture;
 
 import android.app.Application;
 import androidx.annotation.NonNull;
@@ -19,9 +19,9 @@ import com.facebook.react.fabric.CoreComponentsRegistry;
 import com.facebook.react.fabric.EmptyReactNativeConfig;
 import com.facebook.react.fabric.FabricJSIModuleProvider;
 import com.facebook.react.uimanager.ViewManagerRegistry;
-import com.rnvisionproject.BuildConfig;
-import com.rnvisionproject.newarchitecture.components.MainComponentsRegistry;
-import com.rnvisionproject.newarchitecture.modules.MainApplicationTurboModuleManagerDelegate;
+import com.hafidzubaidillah.imagerytest.BuildConfig;
+import com.hafidzubaidillah.imagerytest.newarchitecture.components.MainComponentsRegistry;
+import com.hafidzubaidillah.imagerytest.newarchitecture.modules.MainApplicationTurboModuleManagerDelegate;
 import java.util.ArrayList;
 import java.util.List;
 

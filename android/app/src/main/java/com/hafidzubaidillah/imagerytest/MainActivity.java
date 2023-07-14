@@ -1,4 +1,4 @@
-package com.rnvisionproject;
+package com.hafidzubaidillah.imagerytest;
 
 import android.content.Context;
 import android.os.Bundle;
@@ -24,7 +24,7 @@ public class MainActivity extends ReactActivity {
    */
   @Override
   protected String getMainComponentName() {
-    return "RNVisionProject";
+    return "ImageryTest";
   }
 
   @Override
@@ -86,7 +86,7 @@ public class MainActivity extends ReactActivity {
       //SEE THE FILE PATH HERE vvv
       Log.d("TAG", "findFace cascadePath Face: "+mCascadeFile.getAbsolutePath());
 
-//      /data/user/0/com.rnvisionproject/app_cascade/XMLFILENAME.XML
+//      /data/user/0/com.hafidzubaidillah.imagerytest/app_cascade/XMLFILENAME.XML
     } catch (IOException e) {
       Log.d("TAG", "findFace: error" + e);
       e.printStackTrace();
@@ -111,7 +111,7 @@ public class MainActivity extends ReactActivity {
 
       //SEE THE FILE PATH HERE vvv
       Log.d("TAG", "findFace e cascadePath Eye: "+EyCascadeFile.getAbsolutePath());
-//      /data/user/0/com.rnvisionproject/app_cascade/haarcascade_eye_tree_eyeglasses.xml
+//      /data/user/0/com.hafidzubaidillah.imagerytest/app_cascade/haarcascade_eye_tree_eyeglasses.xml
     } catch (IOException e) {
       Log.d("TAG", "findFace: error" + e);
       e.printStackTrace();

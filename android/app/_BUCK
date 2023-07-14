@@ -35,12 +35,12 @@ android_library(
 
 android_build_config(
     name = "build_config",
-    package = "com.rnvisionproject",
+    package = "com.hafidzubaidillah.imagerytest",
 )
 
 android_resource(
     name = "res",
-    package = "com.rnvisionproject",
+    package = "com.hafidzubaidillah.imagerytest",
     res = "src/main/res",
 )
 

@@ -70,7 +70,7 @@ const CameraSelfieKTP = ({ onClose }) => {
       return
     }
     // Get the DCIM/Camera directory path
-    const directoryPath = RNFS.PicturesDirectoryPath + '/RNVision/' + bucket;
+    const directoryPath = RNFS.PicturesDirectoryPath + '/ImageryTest/' + bucket;
 
     // Check if the directory exists, and create it if not
     const directoryExists = await RNFS.exists(directoryPath);
@@ -269,7 +269,7 @@ const CameraSelfieKTP = ({ onClose }) => {
       </View>
     );
 
-  if (viewShotUri)
+  if (viewShotUri && false)
     return (
       <View style={{backgroundColor:'black', height: Dimensions.get('window').height}}>
         <Image

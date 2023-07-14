@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-               BuildableName = "RNVisionProject.app"
-               BlueprintName = "RNVisionProject"
-               ReferencedContainer = "container:RNVisionProject.xcodeproj">
+               BuildableName = "ImageryTest.app"
+               BlueprintName = "ImageryTest"
+               ReferencedContainer = "container:ImageryTest.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "00E356ED1AD99517003FC87E"
-               BuildableName = "RNVisionProjectTests.xctest"
-               BlueprintName = "RNVisionProjectTests"
-               ReferencedContainer = "container:RNVisionProject.xcodeproj">
+               BuildableName = "ImageryTestTests.xctest"
+               BlueprintName = "ImageryTestTests"
+               ReferencedContainer = "container:ImageryTest.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -55,9 +55,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "RNVisionProject.app"
-            BlueprintName = "RNVisionProject"
-            ReferencedContainer = "container:RNVisionProject.xcodeproj">
+            BuildableName = "ImageryTest.app"
+            BlueprintName = "ImageryTest"
+            ReferencedContainer = "container:ImageryTest.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -72,9 +72,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "RNVisionProject.app"
-            BlueprintName = "RNVisionProject"
-            ReferencedContainer = "container:RNVisionProject.xcodeproj">
+            BuildableName = "ImageryTest.app"
+            BlueprintName = "ImageryTest"
+            ReferencedContainer = "container:ImageryTest.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

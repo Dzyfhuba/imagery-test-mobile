@@ -1,4 +1,4 @@
-package com.rnvisionproject;
+package com.hafidzubaidillah.imagerytest;
 
 
 import com.facebook.react.ReactPackage;

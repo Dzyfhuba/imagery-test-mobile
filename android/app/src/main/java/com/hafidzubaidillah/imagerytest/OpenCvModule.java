@@ -1,4 +1,4 @@
-package com.rnvisionproject;
+package com.hafidzubaidillah.imagerytest;
 
 
 import android.content.Context;
@@ -88,7 +88,7 @@ public class OpenCvModule extends ReactContextBaseJavaModule{
         CascadeClassifier faceDetector = new CascadeClassifier();
 
         //CHECK FILE CASCADE (GET URI FILE CASCADE FROM MAINACTIVITY.JAVA) vvvv
-        if (!faceDetector.load("data/user/0/com.rnvisionproject/app_cascade/haarcascade_frontalface_alt.xml")) {
+        if (!faceDetector.load("data/user/0/com.hafidzubaidillah.imagerytest/app_cascade/haarcascade_frontalface_alt.xml")) {
             Log.d("TAG", "findFace: Error loading face cascade:" );
         }else{
 
@@ -116,7 +116,7 @@ public class OpenCvModule extends ReactContextBaseJavaModule{
         WritableMap returnEye = Arguments.createMap();
         CascadeClassifier eyeDetector = new CascadeClassifier();
 
-        if (!eyeDetector.load("data/user/0/com.rnvisionproject/app_cascade/haarcascade_eye_tree_eyeglasses.xml")) {
+        if (!eyeDetector.load("data/user/0/com.hafidzubaidillah.imagerytest/app_cascade/haarcascade_eye_tree_eyeglasses.xml")) {
             Log.d("TAG", "findFace: Error loading eye cascade:" );
         }else{
             Log.d("TAG", "findEye: true");
